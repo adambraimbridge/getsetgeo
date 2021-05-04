@@ -1,18 +1,28 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.x",
-    "react": "17.x",
-    "react-dom": "17.x"
-  },
-  "devDependencies": {
-    "@cloudant/cloudant": "^4.3.1"
-  }
+	"name": "nextjs",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+		"test": "echo \"Write tests!\" && exit 1"
+	},
+	"dependencies": {
+		"@cloudant/cloudant": "^4.3.1",
+		"next": "10.x",
+		"pouchdb": "^7.2.2",
+		"react": "17.x",
+		"react-dom": "17.x"
+	},
+	"devDependencies": {
+		"@adambraimbridge/prettierrc-2019-05": "^1.0.0",
+		"eslint": "^7.25.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"prettier": "^2.2.1"
+	},
+	"prettier": "@adambraimbridge/prettierrc-2019-05"
 }
