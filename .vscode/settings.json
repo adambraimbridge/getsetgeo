@@ -1,0 +1,7 @@
+{
+    "editor.insertSpaces": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "diffEditor.wordWrap": "off",
+    "editor.quickSuggestionsDelay": 0
+}

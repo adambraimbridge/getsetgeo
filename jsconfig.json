@@ -1,0 +1,9 @@
+/**
+ https: //nextjs.org/docs/advanced-features/module-path-aliases
+ https: //www.taniarascia.com/react-architecture-directory-structure
+*/
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+	}
+}
