@@ -106,3 +106,4 @@ out/
 
 # Development
 .hidden/
+userDatabase/
