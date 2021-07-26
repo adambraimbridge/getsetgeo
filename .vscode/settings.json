@@ -3,5 +3,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "diffEditor.wordWrap": "off",
-    "editor.quickSuggestionsDelay": 0
+    "editor.quickSuggestionsDelay": 0,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
 }

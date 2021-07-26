@@ -4,14 +4,14 @@
  */
 import React from 'react'
 
-const reducer = (state = {}, payload) => {
-	console.log('reducer!', { state, payload })
-	return { ...state, ...payload }
+const reducer = (context = {}, payload) => {
+	console.log('reducer!', { context, payload })
+	return { ...context, ...payload }
 }
 
 export const Context = React.createContext()
 
 export const ContextProvider = ({ children }) => {
-	const [state, setState] = React.useReducer(reducer)
-	return <Context.Provider value={{ state, setState }}>{children}</Context.Provider>
+	const [context, setContext] = React.useReducer(reducer)
+	return <Context.Provider value={{ context, setContext }}>{children}</Context.Provider>
 }
