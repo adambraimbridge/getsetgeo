@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Chat from 'components/chat'
+import Chat from '../../../components/chat'
 
 const Adventure = () => {
 	return (
