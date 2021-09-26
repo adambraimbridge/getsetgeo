@@ -11,6 +11,9 @@
 	},
 	"dependencies": {
 		"@cloudant/cloudant": "^4",
+		"@headlessui/react": "^1.4.1",
+		"@heroicons/react": "^1.0.4",
+		"install": "^0.13.0",
 		"next": "^11",
 		"pouchdb": "^7.2.2",
 		"react": "^17",
