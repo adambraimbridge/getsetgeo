@@ -1,7 +1,10 @@
+import Layout from '../components/layout'
 import 'tailwindcss/tailwind.css'
 
-function App({ Component, pageProps }) {
-	return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+	return (
+		<Layout>
+			<Component {...pageProps} />
+		</Layout>
+	)
 }
-
-export default App
