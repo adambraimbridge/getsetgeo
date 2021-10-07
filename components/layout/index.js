@@ -4,11 +4,14 @@ export default function Layout({ children }) {
 	return (
 		<div className="min-h-screen bg-gray-100 py-1 flex flex-col sm:py-2">
 			<nav className="py-1 flex justify-between border-b border-opacity-20 px-4">
-				<div className="flex items-center space-x-12">
-					<div className="flex space-x-2 text-2xl items-center">
-						<Link href="/">
-							<img className="w-8" src="/img/skull-and-crossbones.svg" />
-						</Link>
+				<div className="md:items-center md:w-auto flex">
+					<Link href="/">
+						<img className="w-8" src="/img/skull-and-crossbones.svg" />
+					</Link>
+				</div>
+				<div class="flex text-sm" v-else>
+					<div className="flex-grow text-right text-gray-500">
+						<span className="text-yellow-800">Ahoy</span> Messenger
 					</div>
 				</div>
 			</nav>
