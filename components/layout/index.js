@@ -9,17 +9,8 @@ export default function Layout({ children }) {
 						<img className="w-8" src="/img/skull-and-crossbones.svg" />
 					</Link>
 				</div>
-				<div class="flex text-sm" v-else>
-					<div className="flex-grow text-right text-gray-500">
-						<span className="text-yellow-800">Ahoy</span> Messenger
-					</div>
-				</div>
 			</nav>
-
-			<div className="relative max-w-prose sm:py-3 sm:max-w-xl sm:mx-auto">
-				<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-10 sm:skew-y-0 sm:-rotate-1 sm:rounded-3xl"></div>
-				<div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">{children}</div>
-			</div>
+			{children}
 		</div>
 	)
 }
