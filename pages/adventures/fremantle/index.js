@@ -8,10 +8,8 @@ const Adventure = () => {
 				<title>Get Set Geo</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main>
-				<section>
-					<Chat />
-				</section>
+			<main className="px-4">
+				<Chat />
 			</main>
 		</>
 	)

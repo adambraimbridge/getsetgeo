@@ -1,7 +1,7 @@
 const Chat = () => {
 	return (
 		<>
-			<div className="text-right text-gray-500 p-1 max-w-sm mx-auto my-3">
+			<div className="text-right text-gray-500 max-w-sm mx-auto">
 				<span className="text-yellow-800">Ahoy</span> Messenger
 			</div>
 
